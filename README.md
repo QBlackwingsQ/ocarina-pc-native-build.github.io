@@ -2,11 +2,11 @@
 
 The project website: **https://ocarina-pc-native-build.github.io/**
 
-**Current release: v1.0.8 · November 14, 2026**
+**Current release: v1.0.9 · November 15, 2026**
 
 [Download / Releases](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/latest) · [Discord](https://discord.gg/vDPAcc6JnY)
 
-The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.0.8, with photo mode, rupee debug tools, memory improvements and expanded diagnostics.
+The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.0.9, with texture-loading optimizations, memory-pressure improvements, a build fix and the Navi toggle.
 
 ## Updating
 
@@ -14,14 +14,13 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Photo mode with a free camera, adjustable field of view and HUD-free PNG screenshots.
-- Add rupees or fill the current wallet in the Debug menu.
-- Reduced unused VRAM reservations and improved memory-related performance advice.
-- Frame Generation pauses during dialogue/cutscenes to help prevent text-box artifacts.
-- Detailed diagnostic timelines, Ctrl+F8 problem markers and matching crash function names.
-- Better reporting of GPU submission failures and less memory used for log analysis.
+- Lower CPU overhead for texture uploads through reusable, bounded workers.
+- More useful render-target reuse within existing memory limits.
+- Smaller temporary buffers for large textures and earlier release of idle buffers under memory pressure.
+- Game compilation continues when an optional performance profile is missing.
+- A persistent Navi on/off button in the launcher header.
 
-[Full v1.0.8 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.0.8)
+[Full v1.0.9 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.0.9)
 
 ## Licenses
 
