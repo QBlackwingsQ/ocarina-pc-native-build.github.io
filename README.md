@@ -2,11 +2,11 @@
 
 The project website: **https://ocarina-pc-native-build.github.io/**
 
-**Current release: v1.0.9 · November 15, 2026**
+**Current release: v1.1.1 · November 15, 2026**
 
 [Download / Releases](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/latest) · [Discord](https://discord.gg/vDPAcc6JnY)
 
-The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.0.9, with texture-loading optimizations, memory-pressure improvements, a build fix and the Navi toggle.
+The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.1, with focused shader preparation, memory improvements, FSR 3.1.6 and a complete settings reset.
 
 ## Updating
 
@@ -14,13 +14,13 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Lower CPU overhead for texture uploads through reusable, bounded workers.
-- More useful render-target reuse within existing memory limits.
-- Smaller temporary buffers for large textures and earlier release of idle buffers under memory pressure.
-- Game compilation continues when an optional performance profile is missing.
-- A persistent Navi on/off button in the launcher header.
+- Shader preparation focuses on recorded pipelines and releases temporary pipelines as it goes.
+- Memory-aware shader workers, bounded rendering caches and new streaming/memory modes.
+- AMD FSR 3.1.6, shared launcher/F1 colours and launcher-style F1 cards.
+- Reset all settings with backups, plus explicit Off choices for RAM guard and texture dimensions.
+- Better memory-pressure, graphics-startup and GPU-hang diagnostics.
 
-[Full v1.0.9 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.0.9)
+[Full v1.1.1 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.1)
 
 ## Licenses
 
