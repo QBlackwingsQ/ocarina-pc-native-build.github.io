@@ -2,11 +2,11 @@
 
 The project website: **https://ocarina-pc-native-build.github.io/**
 
-**Current release: v1.1.2 · November 15, 2026**
+**Current release: v1.1.3 · November 16, 2026**
 
 [Download / Releases](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/latest) · [Discord](https://discord.gg/vDPAcc6JnY)
 
-The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.2, with improved memory cleanup, 9:16 portrait support, an animated rupee counter and launcher improvements.
+The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.3, packaging the Performance Preview with reduced memory retention and CPU/renderer improvements.
 
 ## Updating
 
@@ -14,13 +14,15 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Smaller animated rainbow rupee icon and a fast rolling rupee counter.
-- 9:16 portrait resolutions in the launcher and F1, requested by a Buy Me a Coffee supporter.
-- Better cleanup of overwritten rendering targets to reduce unnecessary RAM and VRAM usage.
-- Audio-command ordering fix under memory pressure and clearer audio diagnostics.
-- Paginated offline patch notes, more reliable settings saves and a corrected F1 ocarina image.
+- Reduced memory retention and shared RAM/VRAM budgets.
+- More efficient CPU calculations and renderer builds.
+- Shader-module cleanup after recorded pipeline preparation.
+- Low-end 60 FPS preset; frame rate depends on hardware and scene.
+- Camera-input expiry, shader arithmetic and graphics-data ordering fixes.
 
-[Full v1.1.2 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.2)
+Performance varies by PC and scene. This preview does not resolve all stutters.
+
+[Full v1.1.3 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.3)
 
 ## Licenses
 
