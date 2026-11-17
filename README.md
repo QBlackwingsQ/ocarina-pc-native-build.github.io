@@ -2,11 +2,11 @@
 
 The project website: **https://ocarina-pc-native-build.github.io/**
 
-**Current release: v1.1.3 · November 16, 2026**
+**Current release: v1.1.4 · November 17, 2026**
 
 [Download / Releases](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/latest) · [Discord](https://discord.gg/vDPAcc6JnY)
 
-The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.3, packaging the Performance Preview with reduced memory retention and CPU/renderer improvements.
+The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.4, adding optional Classic UI, launcher improvements and targeted startup/diagnostic fixes.
 
 ## Updating
 
@@ -14,15 +14,15 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Reduced memory retention and shared RAM/VRAM budgets.
-- More efficient CPU calculations and renderer builds.
-- Shader-module cleanup after recorded pipeline preparation.
-- Low-end 60 FPS preset; frame rate depends on hardware and scene.
-- Camera-input expiry, shader arithmetic and graphics-data ordering fixes.
+- Optional Classic UI with controller icons, four HUD styles and three title logos.
+- Direct download of the selected original mod variant from GameBanana; offline on/off afterwards.
+- Return to the launcher after a completed game build/update.
+- Prevent simultaneous game or shader-preparation processes in the same game folder.
+- Clearer cache-conflict diagnosis and correct session ownership for performance reports.
 
-Performance varies by PC and scene. This preview does not resolve all stutters.
+Classic UI by kuledawg is downloaded from GameBanana. In-game visual testing is ongoing.
 
-[Full v1.1.3 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.3)
+[Full v1.1.4 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.4)
 
 ## Licenses
 
