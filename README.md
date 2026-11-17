@@ -14,13 +14,15 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Optional Classic UI with controller icons, four HUD styles and three title logos.
-- Direct download of the selected original mod variant from GameBanana; offline on/off afterwards.
-- Return to the launcher after a completed game build/update.
-- Prevent simultaneous game or shader-preparation processes in the same game folder.
-- Clearer cache-conflict diagnosis and correct session ownership for performance reports.
+- Engine v2.3.2: improved CPU-thread coordination, renderer scheduling and memory reuse.
+- Better cleanup of shader resources and memory-allocation recovery under Windows memory pressure.
+- Frame Generation respects display capacity; improved HDR, ultrawide transitions and shader compatibility.
+- Automatic save backups outside the game folder; improved audio recovery and crash reports.
+- Optional CRT filters and optional Intel XeSS runtime support in F1.
+- Classic UI selection and direct downloads, plus return to launcher after builds.
+- Same-folder startup protection and accurate debug-session reporting.
 
-Classic UI by kuledawg is downloaded from GameBanana. In-game visual testing is ongoing.
+Engine update: let the launcher update the game and prepare shaders. Re-download manually if the withdrawn first 1.1.4 was installed. Saves and settings stay.
 
 [Full v1.1.4 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.4)
 
