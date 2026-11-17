@@ -2,11 +2,11 @@
 
 The project website: **https://ocarina-pc-native-build.github.io/**
 
-**Current release: v1.1.4 · November 17, 2026**
+**Current release: v1.1.4-1 · November 17, 2026**
 
 [Download / Releases](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/latest) · [Discord](https://discord.gg/vDPAcc6JnY)
 
-The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.4, adding optional Classic UI, launcher improvements and targeted startup/diagnostic fixes.
+The website includes the forest background, feature cards, update section and community links. The current launcher and downloadable installer are v1.1.4-1: v1.1.4 with a new launcher design, build screen, start screen and a 9:16 camera fix.
 
 ## Updating
 
@@ -14,17 +14,14 @@ Restart the launcher and click **Update**, then install over your existing insta
 
 ## Latest update
 
-- Engine v2.3.2: improved CPU-thread coordination, renderer scheduling and memory reuse.
-- Better cleanup of shader resources and memory-allocation recovery under Windows memory pressure.
-- Frame Generation respects display capacity; improved HDR, ultrawide transitions and shader compatibility.
-- Automatic save backups outside the game folder; improved audio recovery and crash reports.
-- Optional CRT filters and optional Intel XeSS runtime support in F1.
-- Classic UI selection and direct downloads, plus return to launcher after builds.
-- Same-folder startup protection and accurate debug-session reporting.
+- New forest-themed launcher design; the chosen interface color tints the whole launcher.
+- New build/update screen with real progress, an accurate file counter, "not needed" steps and the build log.
+- New start screen with three steps and a real progress bar.
+- 9:16, 4:3 and 16:10: the gameplay camera keeps the full 16:9 height view; cutscenes keep their own camera.
 
-Engine update: let the launcher update the game and prepare shaders. Re-download manually if the withdrawn first 1.1.4 was installed. Saves and settings stay.
+Engine and performance are unchanged from v1.1.4. v1.1.4 launchers do not offer this update automatically: download the installer manually, install over your version and let the launcher update the game once. Saves and settings stay.
 
-[Full v1.1.4 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.4)
+[Full v1.1.4-1 patch notes and checksums](https://github.com/ocarina-pc-native-build/ocarina-pc-native-build.github.io/releases/tag/v1.1.4-1)
 
 ## Licenses
 
